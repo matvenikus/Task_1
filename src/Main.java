@@ -6,9 +6,6 @@ public class Main {
 
         int total = sum / bonus;
 
-        if (sum < 19) {
-            bonus = 0;
-        }
         System.out.println("Итоговый бонус: " + total);
     }
 }
